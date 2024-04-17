@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import time
 
-service = Service(executable_path="/Users/imontero/cursus/selenium/chromedriver")
+service = Service(executable_path="./chromedriver")
 drive = webdriver.Chrome(service=service)
 
 driver.get("https://google.com")
