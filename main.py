@@ -2,8 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import time
 
-service = Service(executable_path="chromedriver")
-driver = webdriver.Chrome(service=service)
+service = Service(executable_path="gekodriver")
+driver = webdriver.Firefox(service=service)
 
 driver.get("https://google.com")
 
